@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: "Signika", sans-serif;
+}
+
+a,
+p,
+h3,
+li,
+label {
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  height: 100px;
+  background-color: #FFF8E8;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 5;
+  margin-top: -70px;
+  box-shadow: 0 1px 1.5px;
+}
+
+.navbar .logo h2 {
+  color: #b4ac95;
+}
+.navbar .logo span {
+  color: #9ca48a;
+}
+
+.navbar .navigator {
+  height: 100%;
+}
+
+.navbar .navigator a {
+  color: #b4ac95;
+  font-weight: bold;
+  display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+.navbar .navigator a:hover {
+  border-bottom: 3px solid #9ca48a;
+  color:#9ca48a;
+}
+
+.banner {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  background-image: url('kebon\ hidroponik.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner .text {
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.banner .text span {
+  color: #FFE6A9;
+}
+
+.banner .text a {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #7b5b4b;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.banner .banner-image {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background-color: #b4ac95;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  z-index: -1;
+}
+.banner .banner-image img {
+  width: 400px;
+}
+
+/* home page */
+
+.superior {
+  width: 100%;
+  height: 400px;
+  background-color: #9ca48a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.superior-image img {
+  width: 300px;
+}
+
+.card {
+  display: flex;
+  margin-top: 20px;
+}
+.card .card-icon {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .card-icon span {
+  font-size: 50px;
+}
+
+.card .card-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.card-text h3 {
+  color: #c1bba7;
+}
+
+.card-text p {
+  color: white;
+}
+
+.promotion {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.promotion-image img {
+  width: 300px;
+}
+.promotion-text {
+  width: 350px;
+}
+.promotion-text span {
+  color: #AAB396;
+}
+.promotion-text hr {
+  margin-top: 10px;
+  width: 50%;
+  height: 3px;
+  background-color: #AAB396;
+  border: none;
+}
+
+.promotion-text .image img {
+  width: 80px;
+  margin-top: 30px;
+}
+
+/* courses page */
+
+.sub-title {
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sub-title hr {
+  height: 3px;
+  background-color: #AAB396;
+  border: none;
+}
+.courses {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card-courses {
+  background-color: #AAB396;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.card-courses-text {
+  width: 300px;
+}
+
+.card-courses-text ol {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.card-courses-text ol li span {
+  color: #F7EED3;
+  margin-left: 10px;
+}
+
+.card-courses-button {
+  text-align: right;
+}
+.card-courses-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F7EED3;
+  color: black;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.card-courses-image img {
+  width: 100px;
+}
+
+.footer {
+  height: 150px;
+  background-color: #FFF8E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* about page */
+
+.about {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+/* call center */
+
+.call-center {
+  width: 500px;
+  border: 3px solid #b4ac95;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+/* registration */
+
+.registration .form {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.form .input-form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.form .input-form label {
+  margin-top: 10px;
+}
+.form .input-form input {
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.form .class-type {
+  margin-bottom: 20px;
+}
+
+.form .class-type h2 {
+  margin-bottom: 10px;
+}
+.form .class-type label {
+  margin-right: 20px;
+}
+.form .purchase-type {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form .purchase-type .type {
+  display: flex;
+  margin-top: 10px;
+}
+.form .purchase-type .cek-type {
+  width: fit-content;
+  border: 2px solid #b4ac95;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+.form .purchase-type img {
+  width: 100px;
+  height: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b4ac95;
+  color: black;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+/* footer */
+.footer {
+  margin-top: 50px;
+}
+.footer h2 {
+  color: #b4ac95;
+}
+.footer span {
+  color: #9ca48a;
+}
+
+#blok2 {
+ margin: 40px;
+ margin-right:40;
+ text-align: justify;
+ padding: 20px;
+ width: 500px;
+ float: inline-end;
+ margin-top: -450px;
+ 
+}
+
+#blok1 {
+  margin: 40px;
+  margin-right: 40px;
+  text-align: justify;
+  padding: 20px;
+  width: 500px;
+}
